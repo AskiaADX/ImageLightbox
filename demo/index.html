@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>Image Lightbox</title>
+    <link rel="stylesheet" href="../Resources/static/imageLightbox.css">
+    <style>
+        #adc_1, #adc_1 img {
+            width: 100%;
+            max-width: 250px;
+        }
+        #adc_1 {
+            margin: 0 auto;
+        }
+        #adc_1 img {
+            height: auto;
+            cursor: pointer;
+        }
+        #adc_1 a {
+            color: transparent;
+        }
+    </style>
+</head>
+<body>
+
+<div id="adc_1" class="adc-imagelightbox">
+    <a href="./minions.jpg" target="_blank" data-simplbox="adc_1"><img src="./minions.jpg" alt="minions" /></a>
+</div>
+
+<script type="text/javascript" src="../Resources/static/simplbox.js"></script>
+<script type="text/javascript" src="../Resources/static/imageLightbox.js"></script>
+<script>
+		(function () {
+			var imagelightbox = new ImageLightbox({
+				instanceId: 1
+			});
+		} ());
+	</script>
+
+</body>
+</html>
