@@ -4,7 +4,7 @@ Image Lightbox
 Demo
 -------
 
-[Demo of the Image Lightbox control](http://show.askia.com/WebProd/cgi-bin/AskiaExt.dll?Action=StartSurvey&SurveyName=ADC2_ImageLightbox)
+[Demo of the Image Lightbox control](http://demo.askia.com/WebProd/cgi-bin/AskiaExt.dll?Action=StartSurvey&SurveyName=ADC2_ImageLightbox)
 
 Tested in
 -----------
