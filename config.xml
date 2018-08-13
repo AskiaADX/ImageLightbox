@@ -9,7 +9,8 @@
     <guid>c9141526-1cff-4825-827f-a44615d33567</guid>
     <version>2.0.1</version>
     <date>2016-06-07</date>
-    <description><![CDATA[Image Lightbox]]></description>
+    <description><![CDATA[Image Lightbox
+		v2.0.2 - Add alt attribute to img]]></description>
     <company>Askia</company>
     <author><![CDATA[Jérôme Duparc <jeromed@askia.com>]]></author>
     <site>http://www.askia.com</site>
