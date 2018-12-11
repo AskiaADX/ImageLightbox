@@ -278,10 +278,10 @@
                     touchXEnd = event.pageX || event.touches[0].pageX;
                     swipeDifference = touchXStart - touchXEnd;
             
-                    if (base.browser.isHardwareAccelerated) {
+                    /*if (base.browser.isHardwareAccelerated) {
                         base.m_CurrentImageElement.style[base.getcss3prop("transition")] = "none";
                         base.m_CurrentImageElement.style[base.getcss3prop("transform")] = "translateX(" + -swipeDifference + "px)";
-                    }
+                    }*/
                 });
             
                 base.addEvent(base.m_CurrentImageElement, "touchend pointerup pointercancel MSPointerUp MSPointerCancel", function (event) {
@@ -294,6 +294,7 @@
                             base.rightAnimationFunction();
                         }
                     } else {
+                        base.leftAnimationFunction();
                         base.m_CurrentImageElement.style[base.getcss3prop("transform")] = "translateX(0px)";
                     }
                 });
