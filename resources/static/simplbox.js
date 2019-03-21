@@ -295,7 +295,7 @@
                         }
                     } else {
                         base.leftAnimationFunction();
-                        base.m_CurrentImageElement.style[base.getcss3prop("transform")] = "translateX(0px)";
+                        //base.m_CurrentImageElement.style[base.getcss3prop("transform")] = "translateX(0px)";
                     }
                 });
             }
