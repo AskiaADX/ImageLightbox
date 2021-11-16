@@ -7,11 +7,12 @@
   <info>
     <name>ImageLightbox</name>
     <guid>c9141526-1cff-4825-827f-a44615d33567</guid>
-    <version>3.0.0</version>
+    <version>4.0.0</version>
     <date>2016-06-07</date>
     <description><![CDATA[Image Lightbox
 		v2.0.2 - Add alt attribute to img
-        v2.0.3 - Fixed Issue in simplbox.js]]></description>
+        v2.0.3 - Fixed Issue in simplbox.js
+        v4.0.0 - implement file type parameter]]></description>
     <company>Askia</company>
     <author><![CDATA[Jérôme Duparc <jeromed@askia.com>]]></author>
     <site>http://www.askia.com</site>
@@ -46,9 +47,9 @@
   </outputs>
   <properties>
     <category id="General" name="General">
-      <property xsi:type="standardProperty" id="path" name="Path of the image" type="string" mode="dynamic" require="true" visible="true">
+      <property xsi:type="standardProperty" id="path" name="Path of the image" type="file" mode="dynamic" require="true" visible="true">
         <description><![CDATA[Path of the image]]></description>
-        <value><![CDATA[??ResPath??image.png]]></value>
+        <value><![CDATA[]]></value>
       </property>
       <property xsi:type="standardProperty" id="controlWidth" name="Control Max Width" type="string" mode="dynamic" require="true" visible="true">
         <description><![CDATA[The max width of the control]]></description>
