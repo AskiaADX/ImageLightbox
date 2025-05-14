@@ -7,7 +7,7 @@
   <info>
     <name>ImageLightbox</name>
     <guid>c9141526-1cff-4825-827f-a44615d33567</guid>
-    <version>4.0.0</version>
+    <version>4.0.1</version>
     <date>2016-06-07</date>
     <description><![CDATA[Image Lightbox
 		v2.0.2 - Add alt attribute to img
@@ -49,7 +49,7 @@
     <category id="General" name="General">
       <property xsi:type="standardProperty" id="path" name="Path of the image" type="file" mode="dynamic" require="true" visible="true">
         <description><![CDATA[Path of the image]]></description>
-        <value><![CDATA[]]></value>
+        <value></value>
       </property>
       <property xsi:type="standardProperty" id="controlWidth" name="Control Max Width" type="string" mode="dynamic" require="true" visible="true">
         <description><![CDATA[The max width of the control]]></description>

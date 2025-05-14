@@ -14,5 +14,5 @@
 </script>
 
 <div id="adc_{%= CurrentADC.InstanceId %}" class="adc-imagelightbox">
-    <a href="{%:= CurrentADC.PropValue("path") %}" target="_blank" data-simplbox="adc_{%= CurrentADC.InstanceId %}"><img src="{%:= CurrentADC.PropValue("path") %}"  /></a>
+    <a href="{%:= CurrentADC.Var("path") %}" target="_blank" data-simplbox="adc_{%= CurrentADC.InstanceId %}"><img src="{%:= CurrentADC.Var("path") %}"  /></a>
 </div>
