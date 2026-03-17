@@ -44,7 +44,7 @@
   </outputs>
   <properties>
     <category id="General" name="General">
-      <property xsi:type="standardProperty" id="path" name="Path of the image" type="file" mode="dynamic" require="true" visible="true">
+      <property xsi:type="standardProperty" id="path" name="Path of the image" type="string" mode="dynamic" require="true" visible="true">
         <description><![CDATA[Path of the image]]></description>
         <value></value>
       </property>
