@@ -1,8 +1,5 @@
-Version 1.0.0
 
-- Feature 1
-- Feature 2
 
-Version 4.0.1
+Version 4.0.2
 
-- changed PropValue syntax with .Var for id="path"
+- changed property type for image selection from "file" to "string" to fix issue with image path not being properly returned
