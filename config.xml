@@ -49,7 +49,7 @@
         <value></value>
       </property>
       <property xsi:type="standardProperty" id="altText" name="Image alt text" type="string" mode="dynamic" require="false" visible="true">
-        <description><![CDATA[Text describing the image for screen readers and when the image cannot be displayed. Leave blank for an empty alt attribute.]]></description>
+        <description><![CDATA[Alt text for the image.]]></description>
         <value></value>
       </property>
       <property xsi:type="standardProperty" id="controlWidth" name="Control Max Width" type="string" mode="dynamic" require="true" visible="true">
