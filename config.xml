@@ -7,8 +7,8 @@
   <info>
     <name>ImageLightbox</name>
     <guid>c9141526-1cff-4825-827f-a44615d33567</guid>
-    <version>4.0.2</version>
-    <date>2016-06-07</date>
+    <version>4.0.3</version>
+    <date>2026-10-01</date>
     <description><![CDATA[]]></description>
     <company>Askia</company>
     <author><![CDATA[Jérôme Duparc <jeromed@askia.com>]]></author>
@@ -46,6 +46,10 @@
     <category id="General" name="General">
       <property xsi:type="standardProperty" id="path" name="Path of the image" type="string" mode="dynamic" require="true" visible="true">
         <description><![CDATA[Path of the image]]></description>
+        <value></value>
+      </property>
+      <property xsi:type="standardProperty" id="altText" name="Image alt text" type="string" mode="dynamic" require="false" visible="true">
+        <description><![CDATA[Text describing the image for screen readers and when the image cannot be displayed. Leave blank for an empty alt attribute.]]></description>
         <value></value>
       </property>
       <property xsi:type="standardProperty" id="controlWidth" name="Control Max Width" type="string" mode="dynamic" require="true" visible="true">
